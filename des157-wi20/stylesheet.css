@@ -1,0 +1,71 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+#theScript {
+    width: 800px;
+    height: 250px;
+    border: solid 1.5px rgb(175, 175, 175);
+}
+
+header {
+    display: block;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+footer {
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 250px;
+    height: auto;
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    line-height: 1em;
+}
+
+footer a:hover {
+    color: lightsteelblue;
+    transition: 0.2s ease-in;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin: 1em;
+    padding: 1.8em;
+}
+
+main {
+    justify-content: center;
+    grid-template-columns: 28% 28% 28%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    line-height: 1.6;
+    font-size: 12px;
+}
+
+li a:hover {
+    color: lightsteelblue;
+    transition: 0.2s ease-in;
+}
